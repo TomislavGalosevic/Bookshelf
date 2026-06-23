@@ -48,7 +48,7 @@ const SearchPage = () => {
         <div className="search-header fade-up">
           <div className="gold-line"></div>
           <h1>Otkrij knjige</h1>
-          <p>Pretraži milijune naslova putem Google Books</p>
+          <p>Pretraži milijune knjiga putem Google Books</p>
         </div>
 
         <form onSubmit={handleSearch} className="search-bar-wrap fade-up">
