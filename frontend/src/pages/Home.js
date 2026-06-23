@@ -16,7 +16,7 @@ const Home = () => {
         <div className="container hero-content">
           <div className="hero-eyebrow">
             <span className="eyebrow-line"></span>
-            <span>Tvoj čitački dnevnik</span>
+            <span>Tvoj osobni čitački dnevnik</span>
           </div>
           <h1 className="hero-title">
             Svaka knjiga koju si<br />
@@ -24,15 +24,15 @@ const Home = () => {
             na jednom mjestu.
           </h1>
           <p className="hero-subtitle">
-            Prati svoje čitanje. Otkrivaj nove svjetove. Izgradi svoju osobnu knjižnicu — elegantno.
+            Prati svoje čitanje. Otkrivaj nove svjetove. Izgradi svoju osobnu knjižnicu.
           </p>
           <div className="hero-actions">
             {user ? (
               <Link to="/shelf" className="btn btn-primary">Moja polica →</Link>
             ) : (
               <>
-                <Link to="/register" className="btn btn-primary">Počni besplatno</Link>
-                <Link to="/login" className="btn btn-ghost">Prijava</Link>
+                <Link to="/register" className="btn btn-primary">Počni čitati</Link>
+                <Link to="/login" className="btn btn-ghost">Prijavi se</Link>
               </>
             )}
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="section-header">
             <div className="gold-line"></div>
             <h2>Sve što ti treba</h2>
-            <p>Kompletno iskustvo čitanja u jednoj elegantnoj aplikaciji.</p>
+            <p>Kompletno iskustvo čitanja u jednoj aplikaciji.</p>
           </div>
           <div className="features-grid">
             {[
