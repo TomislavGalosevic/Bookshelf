@@ -51,7 +51,7 @@ router.post('/login', async (req, res) => {
     res.json({ token, user: userWithoutPassword });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: 'Server error.' });
+    res.status(500).json({ error: 'Greška na poslužitelju.' });
   }
 });
 
